@@ -1,0 +1,12 @@
+.wrapper{
+    background-color: rgb(103, 85, 85);
+              color: white;
+    display: flex;
+  }
+  .form__comment{
+    width: 50%;
+  }
+  #show__comments {
+      width: 50%;
+      border-left: 1px solid white;
+  }
