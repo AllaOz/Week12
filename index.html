@@ -10,11 +10,17 @@
 <body>
     <div class ="wrapper">
         <form class ="form__comment">
-        <h1>Service for Comment Section with Spam Filter</h1>
-        <h2>Leave Your Comment Below</h2>
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="link">Insert Link</label>
+        <h1>Service for comment section with Spam filter</h1>
+        <h2>Leave your comment below</h2>
+        <p>Show your name below</p>
+        <input type="radio" id="answerYes" name="radiobtn" value="yes" required>
+  <label for="yesanswer"> Yes</label>
+  <input type="radio" id="answerNo" name="radiobtn" value="no" required>
+  <label for="noanswer"> No</label><br><br>
+  <div id ="name-field">
+            <label for="name">Full name &nbsp;&nbsp;</label>
+            <input type="text" id="name" name="name"><br><br></div>
+            <label for="link">Upload Avatar</label>
             <input type="text" id="link" name="link"><br><br>
             <label for="comment-field">Add Comment:</label><br>
             <textarea id="comment-field" name="comment" rows="8" cols="50"></textarea><br><br>
