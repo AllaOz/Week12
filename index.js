@@ -48,6 +48,7 @@ function changeName(name) {
     document.getElementById('link').value = '';
     document.getElementById('comment-field').value = '';
   });
+  
   const nameField = document.getElementById('name-field');
   const checkedNo = document.getElementById('answerNo');
   const checkedYes = document.getElementById('answerYes');
